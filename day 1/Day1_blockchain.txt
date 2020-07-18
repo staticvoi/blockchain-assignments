@@ -1,0 +1,49 @@
+Day 1 Assignment:
+
+Q1. What is your understanding of Blockchain?
+
+Ans: A Blockchain is a constantly growing ledger that keeps a permanent record of all transactions that have been taken place, in a secure, chronological and immutable way in decentralized disturbed network.
+It is a mix of technology which is disturbed database and cryptography. In  this, the information is-
+a. verifiable
+b. unchangeable
+c. tamper-proof
+d. immutable
+In this there are many blocks that store the content and previous hash value.
+
+Q2. What is the core problem Blockchain trying to solve?
+
+The core problems that Blockchain solves:
+1. Security
+2. Decentralization.
+3. Authentication.
+
+Q3. What are the few features which Blockchain will give u?
+
+1. Verifiable
+2. Unchangeable
+3. Tamper proof
+4. Immutable
+5. Decentralized System
+6. Mining
+
+Q4. What all things does a Block Contain?
+
+1. Block magic number.
+2. Records.
+3. Previous block signature.
+5. Mining Key.
+
+Q5. How is the verifiability of Blockchain is been attained?
+
+The Blockchain can be verifiability by the data and the key that are stored in the distributed systems.
+
+Current Block Signature = Previous Block Signature + Data in the Block
+eg: 
+Let us say there are 100 blocks,
+BlockData1 = Data = Fingerprint1
+BlockData2 =  previous fingerprint 1 + Data = Fingerprint 2
+Block Data2 = previous fingerprint 2 + Data = Fingerprint 3
+...
+ Block Data100 = previous fingerprint 99 + Data = Fingerprint 100
+
+Here now we see that all the 100 Fingerprint must be same as the data is same. Suppose if one block has a different fingerprint then all the other 99 block will tell it to change the contents. This can be done either by it taking the new data from the neighboring block or can check the point from where his contents are changed. This is verifiablity as it checks whether contents are proper or not.
